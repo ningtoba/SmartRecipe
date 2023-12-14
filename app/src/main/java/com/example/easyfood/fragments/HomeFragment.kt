@@ -157,7 +157,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private fun onRandomMealClick() {
         binding.cvRandomMeal.setOnClickListener {
             if (randomMeal == null) {
-                Toast.makeText(activity, "Turn on the Net fucker", Toast.LENGTH_LONG).show()
+                Toast.makeText(activity, "Turn on the Net", Toast.LENGTH_LONG).show()
 
             } else {
                 // Intent to navigate to Meal Activity

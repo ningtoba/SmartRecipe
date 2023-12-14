@@ -62,7 +62,7 @@ class MealActivity : AppCompatActivity() {
         observeMealDetailsLiveData()  // -> Setting up remaining views
 
         // Setting up onclick Listener on Youtube icon
-        onYoutubeImageClick()
+//        onYoutubeImageClick()
 
         // Adding meal to favorites
         onFavoriteClick()
@@ -81,12 +81,12 @@ class MealActivity : AppCompatActivity() {
     }
 
     // Function to redirect user to youtube link
-    private fun onYoutubeImageClick() {
-        binding.imgYoutube.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(youtubeLink))
-            startActivity(intent)
-        }
-    }
+//    private fun onYoutubeImageClick() {
+//        binding.imgYoutube.setOnClickListener {
+//            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(youtubeLink))
+//            startActivity(intent)
+//        }
+//    }
 
     // Getting information from intent and storing in variables
     private fun getMealInformationFromIntent() {
@@ -143,7 +143,7 @@ class MealActivity : AppCompatActivity() {
             }
 
             // Setting up youtube link
-            youtubeLink = meal.strYoutube.toString()
+//            youtubeLink = meal.strYoutube.toString()
         }
     }
 
@@ -155,7 +155,7 @@ class MealActivity : AppCompatActivity() {
             fabFavorites.visibility = View.INVISIBLE
             tvMealCategory.visibility = View.INVISIBLE
             tvMealArea.visibility = View.INVISIBLE
-            imgYoutube.visibility = View.INVISIBLE
+//            imgYoutube.visibility = View.INVISIBLE
 
             tvSteps.visibility = View.INVISIBLE
             tvStepsTitle.visibility = View.INVISIBLE
@@ -171,7 +171,7 @@ class MealActivity : AppCompatActivity() {
             fabFavorites.visibility = View.VISIBLE
             tvMealCategory.visibility = View.VISIBLE
             tvMealArea.visibility = View.VISIBLE
-            imgYoutube.visibility = View.VISIBLE
+//            imgYoutube.visibility = View.VISIBLE
 
             tvSteps.visibility = View.VISIBLE
             tvStepsTitle.visibility = View.VISIBLE

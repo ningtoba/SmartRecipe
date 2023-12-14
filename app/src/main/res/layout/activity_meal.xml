@@ -194,15 +194,7 @@
         android:padding="@dimen/_10sdp"
         app:cardCornerRadius="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_10sdp">
-
-    <ImageView
-        android:id="@+id/imgYoutube"
-        android:padding="@dimen/_4sdp"
-        android:layout_width="@dimen/_40sdp"
-        android:layout_height="@dimen/_30sdp"
-        android:src="@drawable/youtube_logo" />
-    </androidx.cardview.widget.CardView>
+        android:layout_marginBottom="@dimen/_10sdp"/>
 
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
